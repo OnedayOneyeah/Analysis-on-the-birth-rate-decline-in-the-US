@@ -3,7 +3,7 @@
 This repository is for the replication of *The Puzzle of Falling US Birth Rates Since the Great Recession* (Melissa S. Kearney, Phillip B. Levine, and Luke Pardue, 2022). Input folder includes the datasets manipulated in the paper and a bibTex file used for bibliography in RMarkdown file. Output folder consists of the RMarkdown file with the exported pdf file, and the log file. At last, the RScript cleaning the input datasets is included in Script folder.
 
 ## Comupational Requirements
-To run the codes in RMarkdown and RScript file, R[[1]](#1) is required to be installed. Related R packages should be installed before running the codes as well, and it is acheivable by running codes in 'computational_requirements.R' file in this repository.
+To run the codes in RMarkdown and RScript file, R[[1]](#1) is required to be installed. Related R packages should be installed before running the codes as well, and it is acheivable by running codes in 'computational_requirements.R' file in this repository. To analyze datasets, we used tidyverse[[2]](#2)
 
 ## Data Availability 
 Datasets used to generate figures and tables in the replication paper are listed below.
@@ -67,3 +67,5 @@ Here are the heads of each datafile.
 
 <a id="1">[1]</a> 
 R
+<a id="2">[2]</a>
+Tidyverse
