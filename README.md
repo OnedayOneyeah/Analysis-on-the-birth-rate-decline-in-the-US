@@ -37,7 +37,7 @@ Here are the heads of each datafile.
 
 **3. fig_7.csv
 |stname|brate1544_thsnds_ch_pct|
-|---|---|---|
+|---|---|
 |AK|-5.4787889|
 |AL|-5.3939962|
 |AR|-7.8527479|
