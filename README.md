@@ -9,6 +9,7 @@ To run the codes in RMarkdown and RScript file, R[[1]](#1) is required to be ins
 
 Dataset list (Data file, Source, Notes, Provided)
 |Data file|Feature/Table|Notes|Provided|
+|---|---|---|---|
 |fig_1.csv|Figure 1, Table2|The US Birth Rate from 1980 to 2020|Yes|
 |figs_2a_2b.csv|Figure 2, Table 3, Figure 3|The US Birth Rate by Age Group, Race and Ethnicity|Yes|
 |fig_7.csv|Figure 4, Table 4, Figure 5.2|Change in Birth Rate by State between 2004-2008 and 2015-2019 (15-44)|Yes|
