@@ -65,7 +65,8 @@ Here are the heads of each datafile.
 
 ## References
 
-<a id="1">[1]</a> 
-R
-<a id="2">[2]</a>
-Tidyverse
+<a id="1">[1]
+R</a> 
+
+<a id="2">[2]
+Tidyverse</a>
