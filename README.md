@@ -17,7 +17,7 @@ Datasets used to generate figures and tables in the replication paper are listed
 |numbirths_2001_2019.csv|Figure 5.1|The Number of Birth by State by State from 1990 to 2019 (15-44)|Yes|
 
 Here are the heads of each datafile.
-**1. fig_1.csv
+**1. fig_1.csv**
 |year|brate_all|
 |---|---|
 |1980|68.4|
@@ -26,7 +26,7 @@ Here are the heads of each datafile.
 |1983|65.7|
 |1984|65.5|
 
-**2. fig_2a_2b.csv
+**2. fig_2a_2b.csv**
 |year|brate_1519|brate_2024|brate_2529|brate_3034|brate_3539|brate_4044|brate_whitenh|brate_blacknh|brate_hisp|
 |---|---|---|---|---|---|---|---|---|---|
 |1980|53|115.1|112.9|61.9|19.8|3.9|   |   |    |
@@ -35,7 +35,7 @@ Here are the heads of each datafile.
 |1983|51.4|107.8|108.5|64.9|22|3.9|   |   |    |
 |1984|50.6|106.8|108.7|67|22.9|3.9|   |   |    |
 
-**3. fig_7.csv
+**3. fig_7.csv**
 |stname|brate1544_thsnds_ch_pct|
 |---|---|
 |AK|-5.4787889|
@@ -44,7 +44,7 @@ Here are the heads of each datafile.
 |AZ|-25.359673|
 |CA|-18.001598|
 
-**4. hispanic.csv
+**4. hispanic.csv**
 |State|WhiteHispanicPerc|BlackHispanicPerc|IndianHispanicPerc|AsianHispanicPerc|HawaiianHispanicPerc|OtherHispanicPerc|
 |---|---|---|---|---|---|---|
 |Alabama|0.0257|0.0015|0.0006|0.0002|0.0001|0.0147|
@@ -54,7 +54,14 @@ Here are the heads of each datafile.
 |California|0.2252|0.0027|0.0042|0.0021|0.0004|0.1557|
 
 
-**5 numbirths_2001_2019.csv
+**5 numbirths_2001_2019.csv**
+|year|stname|numbirth1544|
+|---|---|---|
+|1990|AK|11881|
+|1991|AK|11651|
+|1992|AK|11698|
+|1993|AK|11056|
+|1994|AK|10652|
 
 ## References
 
