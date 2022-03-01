@@ -3,7 +3,7 @@
 This repository is for the replication of *The Puzzle of Falling US Birth Rates Since the Great Recession* (Melissa S. Kearney, Phillip B. Levine, and Luke Pardue, 2022). Input folder includes the datasets manipulated in the paper and a bibTex file used for bibliography in RMarkdown file. Output folder consists of the RMarkdown file with the exported pdf file, and the log file. At last, the RScript cleaning the input datasets is included in Script folder.
 
 ## Comupational Requirements
-To run the codes in RMarkdown and RScript file, R[[1]](#1) is required to be installed. Related R packages should be installed before running the codes as well, and it is acheivable by running codes in 'computational_requirements.R' file in this repository. To analyze datasets, we used tidyverse[[2]](#2)
+To run the codes in RMarkdown and RScript file, R[[1]](#1) is required to be installed. Related R packages should be installed before running the codes as well, and it is acheivable by running codes in 'computational_requirements.R' file in this repository. We used tidyverse[[2]](#2) to manipulate the datasets, knitr[[3]](#3) and kableExtra[[4]](#4) to generate tables with the cleaned datasets and fix its placement in the paper. usmap[[5]](#5) helped to plot datasets on US map, generating related figures. At last, bookdown[[6]](#6) was used as a powerful cross referene tool for generating final pdf document. 
 
 ## Data Availability 
 Datasets used to generate figures and tables in the replication paper are listed below.
@@ -66,7 +66,41 @@ Here are the heads of each datafile.
 ## References
 
 <a id="1">[1]
-R</a> 
+  R Core Team (2021). R: A language and
+  environment for statistical computing. R
+  Foundation for Statistical Computing, Vienna,
+  Austria. URL https://www.R-project.org/.
+</a> 
 
 <a id="2">[2]
-Tidyverse</a>
+  Wickham et al., (2019). Welcome to the
+  tidyverse. Journal of Open Source Software,
+  4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+</a>
+
+<a id="3">[3]
+  Yihui Xie (2021). knitr: A General-Purpose
+  Package for Dynamic Report Generation in R. R
+  package version 1.37.
+  </a>
+  
+ <a id="4">[4]
+  Hao Zhu (2021). kableExtra: Construct Complex
+  Table with 'kable' and Pipe Syntax. R package
+  version 1.3.4.
+  https://CRAN.R-project.org/package=kableExtra
+  </a>
+  
+  
+<a id ="5">[5]
+  Paolo Di Lorenzo (2021). usmap: US Maps
+  Including Alaska and Hawaii. R package version
+  0.5.2. https://CRAN.R-project.org/package=usmap
+  </a>
+  
+ <a id="6">[6]
+  Yihui Xie (2021). bookdown: Authoring Books and
+  Technical Documents with R Markdown. R package
+  version 0.24.
+  </a>
