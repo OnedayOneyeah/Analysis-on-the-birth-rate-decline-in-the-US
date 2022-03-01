@@ -17,7 +17,44 @@ Datasets used to generate figures and tables in the replication paper are listed
 |numbirths_2001_2019.csv|Figure 5.1|The Number of Birth by State by State from 1990 to 2019 (15-44)|Yes|
 
 Here are the heads of each datafile.
+**1. fig_1.csv
+|year|brate_all|
+|---|---|
+|1980|68.4|
+|1981|67.3|
+|1982|67.3|
+|1983|65.7|
+|1984|65.5|
 
+**2. fig_2a_2b.csv
+|year|brate_1519|brate_2024|brate_2529|brate_3034|brate_3539|brate_4044|brate_whitenh|brate_blacknh|brate_hisp|
+|---|---|---|---|---|---|---|---|---|
+|1980|53|115.1|112.9|61.9|19.8|3.9|		
+|1981|52.2|112.2|111.5|61.4|20|3.8|		
+|1982|52.4|111.6|111|64.1|21.2|3.9|		
+|1983|51.4|107.8|108.5|64.9|22|3.9|		
+|1984|50.6|106.8|108.7|67|22.9|3.9|			
+
+**3. fig_7.csv
+|stname|brate1544_thsnds_ch_pct|
+|---|---|---|
+|AK|-5.4787889|
+|AL|-5.3939962|
+|AR|-7.8527479|
+|AZ|-25.359673|
+|CA|-18.001598|
+
+**4. hispanic.csv
+|State|WhiteHispanicPerc|BlackHispanicPerc|IndianHispanicPerc|AsianHispanicPerc|HawaiianHispanicPerc|OtherHispanicPerc|
+|---|---|---|---|---|---|---|
+|Alabama|0.0257|0.0015|0.0006|0.0002|0.0001|0.0147|
+|Alaska|0.0395|0.0018|0.0047|0.0014|0.0003|0.0227|
+|Arizona|0.2252|0.0029|0.0058|0.0009|0.0002|0.0782|
+|Arkansas|0.0429|0.0009|0.0009|0.0002|0.0000|0.0298|
+|California|0.2252|0.0027|0.0042|0.0021|0.0004|0.1557|
+
+
+**5 numbirths_2001_2019.csv
 
 ## References
 
