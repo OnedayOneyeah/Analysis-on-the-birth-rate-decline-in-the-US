@@ -24,6 +24,8 @@ All the figures and tables in the replication paper were created with five datas
 |numbirths_2001_2019.csv|Figure 5.1|The Number of Birth by State by State from 1990 to 2019 (15-44)|Yes|
 
 Here are the heads of each data file.
+
+
 **1. fig_1.csv**
 |year|brate_all|
 |---|---|
